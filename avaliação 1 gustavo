@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Temperaturas da Semana</title>
+    <style>
+        table {
+            width: 50%;
+            border-collapse: collapse;
+            margin: 20px auto;
+            font-family: Arial, sans-serif;
+        }
+        th, td {
+            border: 1px solid #333;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h2 style="text-align:center;">Temperaturas da Semana</h2>
+    <table>
+        <tr>
+            <th>Dia</th>
+            <th>Temperatura (°C)</th>
+        </tr>
+        <tr>
+            <td>Segunda-feira</td>
+            <td>25°C</td>
+        </tr>
+        <tr>
+            <td>Terça-feira</td>
+            <td>27°C</td>
+        </tr>
+        <tr>
+            <td>Quarta-feira</td>
+            <td>26°C</td>
+        </tr>
+        <tr>
+            <td>Quinta-feira</td>
+            <td>28°C</td>
+        </tr>
+        <tr>
+            <td>Sexta-feira</td>
+            <td>29°C</td>
+        </tr>
+        <tr>
+            <td>Sábado</td>
+            <td>30°C</td>
+        </tr>
+        <tr>
+            <td>Domingo</td>
+            <td>27°C</td>
+        </tr>
+    </table>
+</body>
+</html>
+
